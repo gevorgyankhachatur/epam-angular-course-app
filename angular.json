@@ -1,8 +1,5 @@
 {
   "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
-  "cli": {
-    "analytics": "2c6b2a10-6c97-464e-b5cc-79dcb00c6555"
-  },
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
@@ -25,13 +22,8 @@
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.app.json",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
             "scripts": []
           },
           "configurations": {
@@ -71,10 +63,12 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "epam-angular-course-app:build:production"
+              "browserTarget": "epam-angular-course-app:build:production",
+              "port": 4005
             },
             "development": {
-              "browserTarget": "epam-angular-course-app:build:development"
+              "browserTarget": "epam-angular-course-app:build:development",
+              "port": 4005
             }
           },
           "defaultConfiguration": "development"
@@ -92,13 +86,8 @@
             "polyfills": "src/polyfills.ts",
             "tsConfig": "tsconfig.spec.json",
             "karmaConfig": "karma.conf.js",
-            "assets": [
-              "src/favicon.ico",
-              "src/assets"
-            ],
-            "styles": [
-              "src/styles.css"
-            ],
+            "assets": ["src/favicon.ico", "src/assets"],
+            "styles": ["src/styles.css"],
             "scripts": []
           }
         }
