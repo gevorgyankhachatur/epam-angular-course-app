@@ -1,4 +1,4 @@
-import { OptionalComponent } from './resolution-modifiers/optional/opional.component';
+import { OptionalComponent } from './resolution-modifiers/optional/optional.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule } from '@angular/forms';
@@ -6,7 +6,7 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { PipesDirectivesModule } from './pipes-directives/pipes-directives.module';
 import { DIServicesModule } from './di-services/di-services.module';
-import { SharedService } from './shared.service';
+// import { SharedService } from './shared.service';
 import { ProvidersViewProvidersComponent } from './providers-view-providers/providers-view-providers.component';
 import { ResolutionModifiersComponent } from './resolution-modifiers/resolution-modifiers.component';
 import { SelfNoDataComponent } from './resolution-modifiers/self-no-data/self-no-data.component';

@@ -1,23 +1,12 @@
-<h1>DI resolution modifiers</h1>
+<!-- di-services, pipes-services -->
 
-<p>Basic flower service: {{flower.emoji}}</p>
-<p>Basic leaf service: {{leaf.emoji}}</p>
-
-<app-optional></app-optional>
-
-<app-self></app-self>
-
-<app-self-no-data></app-self-no-data>
-
-<app-skipself></app-skipself>
-
-<app-host-parent></app-host-parent>
-
-
+<h2>From ChildComponent:</h2>
 <app-pipes-directives></app-pipes-directives>
 <app-di-services></app-di-services>
 
 
+
+<!-- providers-view-providers -->
 
 <h2>From AppComponent:</h2>
 <p>Emoji from FlowerService: {{flower.emoji}}</p>
@@ -26,4 +15,20 @@
 <hr />
 
 <h2>From ChildComponent:</h2>
-<app-child><app-inspector></app-inspector></app-child>
+<app-child>
+    <app-inspector></app-inspector>
+</app-child>
+
+
+
+<!-- resolution-modifiers -->
+
+<h1>DI resolution modifiers</h1>
+<p>Basic flower service: {{flower.emoji}}</p>
+<p>Basic leaf service: {{leaf.emoji}}</p>
+
+<app-optional></app-optional>
+<app-self></app-self>
+<app-self-no-data></app-self-no-data>
+<app-skipself></app-skipself>
+<app-host-parent></app-host-parent>

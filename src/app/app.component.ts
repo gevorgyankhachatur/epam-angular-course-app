@@ -1,8 +1,8 @@
 import { Component } from '@angular/core';
-import { SharedService } from './shared.service';
-import { LeafService } from './leaf.service';
-import { FlowerService } from './flower.service';
-import { AnimalService } from './animal.service';
+// import { SharedService } from './shared.service';
+import { LeafService } from './resolution-modifiers/leaf.service';
+import { FlowerService } from './resolution-modifiers/flower.service';
+import { AnimalService } from './providers-view-providers/animal.service';
 
 @Component({
   selector: 'app-root',
