@@ -106,10 +106,7 @@
         },
         "deploy": {
           "builder": "angular-cli-ghpages:deploy",
-          "options": {
-            "baseHref": "https://gevorgyankhachatur.github.io/epam-angular-course-app",
-            "name": "Angular Schule Team"
-          }
+          "options": {}
         }
       }
     }
