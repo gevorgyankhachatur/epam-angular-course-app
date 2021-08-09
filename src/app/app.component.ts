@@ -1,4 +1,4 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component } from '@angular/core';
 // import { SharedService } from './shared.service';
 import { LeafService } from './resolution-modifiers/leaf.service';
 import { FlowerService } from './resolution-modifiers/flower.service';
@@ -8,7 +8,6 @@ import { AnimalService } from './providers-view-providers/animal.service';
   selector: 'app-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css'],
-  encapsulation: ViewEncapsulation.None,
 })
 export class AppComponent {
   name = 'Angular';
